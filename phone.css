@@ -1,0 +1,51 @@
+nav ul li {
+    padding: 10px 13px;
+    font-size: 1.5rem;
+}
+.musicItem {
+    height: 44px;
+    display: flex;
+    background-color: rgb(243 244 246 / 91%);
+    width: 101%;
+    color: black;
+    margin: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    /* cursor: pointer; */
+}
+.songItemContainer {
+    margin: 23px -10px;
+}
+.container {
+    min-height: 62.3vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 49px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 25px;
+    background-image: url(bfly.gif);
+    justify-content: left;
+    flex-direction: column;
+    background-size: 60rem;
+}
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 120px;
+    color: aliceblue;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    top: 9px;
+    font-family: 'Varela Round', sans-serif;
+}
